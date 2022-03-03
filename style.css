@@ -9,6 +9,7 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   color: #fff;
+  letter-spacing: 1px;
 }
 h2 {
   font-size: 1.5rem;
@@ -83,6 +84,10 @@ section ul {
   font-family: "Roboto", sans-serif;
 }
 
+.tag {
+  width: 90%;
+}
+
 /*****FOOTER*****/
 
 footer {
@@ -102,6 +107,11 @@ footer li {
   padding: 10px;
   margin: 20px;
   background: #4376b9;
+  margin-left: -1px;
+}
+
+footer ul {
+  padding-inline-start: 0%;
 }
 
 @media screen and (max-width: 989px) {
